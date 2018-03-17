@@ -1,0 +1,7 @@
+<div id="login">
+    <div class="form-wrap">
+        <input type="text" [(ngModel)]="firstName" placeholder="FirstName" class="form-control" #first>
+        <input type="text" [(ngModel)]="lastName" placeholder="LastName" class="form-control" #last>
+        <button type="button" class="btn btn-large btn-block btn-primary" (click)="submit(first,last)">Login</button> {{title}}
+    </div>
+</div>
